@@ -17,3 +17,8 @@ export interface ProjectCardProps {
   price: string;
   tech: string[];
 }
+
+export interface FiltersModalProps {
+  open: boolean;
+  onClose: () => void;
+}
